@@ -1,0 +1,13 @@
+{
+  "source_file": "depot/tokenization/tokenizer_code/paper_math_curriculum.py",
+  "special_tokens": [
+    "<PAD>",
+    "<UNK>",
+    "<SOS>",
+    "<EOS>"
+  ],
+  "notes": [
+    "These are the special tokens defined by the exact tokenizer source used by the paper runs.",
+    "They are inserted before the ordered base character inventory."
+  ]
+}

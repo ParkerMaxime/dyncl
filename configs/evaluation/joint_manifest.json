@@ -1,0 +1,29 @@
+[
+  {
+    "model_id": "dyn_joint_42",
+    "seed": 42,
+    "checkpoint_kind": "last",
+    "checkpoint_path": "checkpoints/dynamic/dyn_joint_42.pt",
+    "evaluation_path": "eval_json/per_run/dyn_joint_42_eval.json",
+    "run_family": "dynamic_joint",
+    "level_scope": "joint_full"
+  },
+  {
+    "model_id": "dense_joint_42",
+    "seed": 42,
+    "checkpoint_kind": "last",
+    "checkpoint_path": "checkpoints/dense/dense_joint_42.pt",
+    "evaluation_path": "eval_json/per_run/dense_joint_42_eval.json",
+    "run_family": "dense_joint",
+    "level_scope": "joint_full"
+  },
+  {
+    "model_id": "sparse_joint_42",
+    "seed": 42,
+    "checkpoint_kind": "best",
+    "checkpoint_path": "checkpoints/static_sparse/sparse_joint_42.pt",
+    "evaluation_path": "eval_json/per_run/sparse_joint_42_eval.json",
+    "run_family": "static_sparse_joint",
+    "level_scope": "joint_full"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "model_id": "sparseP_42",
+    "seed": 42,
+    "checkpoint_kind": "best",
+    "checkpoint_path": "checkpoints/static_sparse/sparseP_42.pt",
+    "evaluation_path": "eval_json/per_run/sparseP_42_eval.json",
+    "run_family": "static_sparse_primary",
+    "level_scope": "primary_final"
+  },
+  {
+    "model_id": "sparseM_42",
+    "seed": 42,
+    "checkpoint_kind": "best",
+    "checkpoint_path": "checkpoints/static_sparse/sparseM_42.pt",
+    "evaluation_path": "eval_json/per_run/sparseM_42_eval.json",
+    "run_family": "static_sparse_middle",
+    "level_scope": "middle_school_final"
+  },
+  {
+    "model_id": "sparseH_42",
+    "seed": 42,
+    "checkpoint_kind": "best",
+    "checkpoint_path": "checkpoints/static_sparse/sparseH_42.pt",
+    "evaluation_path": "eval_json/per_run/sparseH_42_eval.json",
+    "run_family": "static_sparse_high",
+    "level_scope": "high_school_final"
+  },
+  {
+    "model_id": "sparse_joint_42",
+    "seed": 42,
+    "checkpoint_kind": "best",
+    "checkpoint_path": "checkpoints/static_sparse/sparse_joint_42.pt",
+    "evaluation_path": "eval_json/per_run/sparse_joint_42_eval.json",
+    "run_family": "static_sparse_joint",
+    "level_scope": "joint_full"
+  }
+]

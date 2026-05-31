@@ -1,0 +1,20 @@
+[
+  {
+    "model_id": "dense_EWC_M_42",
+    "seed": 42,
+    "checkpoint_kind": "last",
+    "checkpoint_path": "checkpoints/ewc/dense_EWC_M_42.pt",
+    "evaluation_path": "eval_json/per_run/dense_EWC_M_42_eval.json",
+    "run_family": "dense_ewc_middle",
+    "level_scope": "middle_school_final"
+  },
+  {
+    "model_id": "dense_EWC_H_42",
+    "seed": 42,
+    "checkpoint_kind": "last",
+    "checkpoint_path": "checkpoints/ewc/dense_EWC_H_42.pt",
+    "evaluation_path": "eval_json/per_run/dense_EWC_H_42_eval.json",
+    "run_family": "dense_ewc_high",
+    "level_scope": "high_school_final"
+  }
+]

@@ -1,0 +1,172 @@
+[
+  {
+    "model_id": "dynP_42",
+    "paper_label": "dynP_42",
+    "seed": 42,
+    "checkpoint_kind": "last",
+    "checkpoint_path": "checkpoints/dynamic/dynP_seed42.pt",
+    "evaluation_path": "evaluation/raw_json/dynP_seed42_eval.json",
+    "run_family": "dynamic_primary",
+    "level_scope": "primary_final"
+  },
+  {
+    "model_id": "dynP_43",
+    "paper_label": "dynP_43",
+    "seed": 43,
+    "checkpoint_kind": "last",
+    "checkpoint_path": "checkpoints/dynamic/dynP_seed43.pt",
+    "evaluation_path": "evaluation/raw_json/dynP_seed43_eval.json",
+    "run_family": "dynamic_primary",
+    "level_scope": "primary_final"
+  },
+  {
+    "model_id": "dynP_44",
+    "paper_label": "dynP_44",
+    "seed": 44,
+    "checkpoint_kind": "last",
+    "checkpoint_path": "checkpoints/dynamic/dynP_seed44.pt",
+    "evaluation_path": "evaluation/raw_json/dynP_seed44_eval.json",
+    "run_family": "dynamic_primary",
+    "level_scope": "primary_final"
+  },
+  {
+    "model_id": "dynP_noprune_42",
+    "paper_label": "dynP_noprune_42",
+    "seed": 42,
+    "checkpoint_kind": "last",
+    "checkpoint_path": "checkpoints/ablations/dynP_noprune_42.pt",
+    "evaluation_path": "evaluation/raw_json/dynP_noprune_42_eval.json",
+    "run_family": "dynamic_primary_no_prune",
+    "level_scope": "primary_ablation"
+  },
+  {
+    "model_id": "dynM_42",
+    "paper_label": "dynM_42",
+    "seed": 42,
+    "checkpoint_kind": "last",
+    "checkpoint_path": "checkpoints/dynamic/dynM_seed42.pt",
+    "evaluation_path": "evaluation/raw_json/dynM_seed42_eval.json",
+    "run_family": "dynamic_middle",
+    "level_scope": "middle_school_final"
+  },
+  {
+    "model_id": "dynM_43",
+    "paper_label": "dynM_43",
+    "seed": 43,
+    "checkpoint_kind": "last",
+    "checkpoint_path": "checkpoints/dynamic/dynM_seed43.pt",
+    "evaluation_path": "evaluation/raw_json/dynM_seed43_eval.json",
+    "run_family": "dynamic_middle",
+    "level_scope": "middle_school_final"
+  },
+  {
+    "model_id": "dynM_44",
+    "paper_label": "dynM_44",
+    "seed": 44,
+    "checkpoint_kind": "last",
+    "checkpoint_path": "checkpoints/dynamic/dynM_seed44.pt",
+    "evaluation_path": "evaluation/raw_json/dynM_seed44_eval.json",
+    "run_family": "dynamic_middle",
+    "level_scope": "middle_school_final"
+  },
+  {
+    "model_id": "dynH_42",
+    "paper_label": "dynH_42",
+    "seed": 42,
+    "checkpoint_kind": "last",
+    "checkpoint_path": "checkpoints/dynamic/dynH_seed42.pt",
+    "evaluation_path": "evaluation/raw_json/dynH_seed42_eval.json",
+    "run_family": "dynamic_high",
+    "level_scope": "high_school_final"
+  },
+  {
+    "model_id": "dynH_43",
+    "paper_label": "dynH_43",
+    "seed": 43,
+    "checkpoint_kind": "last",
+    "checkpoint_path": "checkpoints/dynamic/dynH_seed43.pt",
+    "evaluation_path": "evaluation/raw_json/dynH_seed43_eval.json",
+    "run_family": "dynamic_high",
+    "level_scope": "high_school_final"
+  },
+  {
+    "model_id": "dynH_44",
+    "paper_label": "dynH_44",
+    "seed": 44,
+    "checkpoint_kind": "best",
+    "checkpoint_path": "checkpoints/dynamic/dynH_seed44.pt",
+    "evaluation_path": "evaluation/raw_json/dynH_seed44_eval.json",
+    "run_family": "dynamic_high_historical",
+    "level_scope": "high_school_final"
+  },
+  {
+    "model_id": "denseP_42",
+    "paper_label": "denseP_42",
+    "seed": 42,
+    "checkpoint_kind": "best",
+    "checkpoint_path": "checkpoints/dense/denseP_42.pt",
+    "evaluation_path": "evaluation/raw_json/denseP_42_eval.json",
+    "run_family": "dense_primary",
+    "level_scope": "primary_final"
+  },
+  {
+    "model_id": "denseM_42",
+    "paper_label": "denseM_42",
+    "seed": 42,
+    "checkpoint_kind": "last",
+    "checkpoint_path": "checkpoints/dense/denseM_42.pt",
+    "evaluation_path": "evaluation/raw_json/denseM_42_eval.json",
+    "run_family": "dense_middle",
+    "level_scope": "middle_school_final"
+  },
+  {
+    "model_id": "denseH_42",
+    "paper_label": "denseH_42",
+    "seed": 42,
+    "checkpoint_kind": "last",
+    "checkpoint_path": "checkpoints/dense/denseH_42.pt",
+    "evaluation_path": "evaluation/raw_json/denseH_42_eval.json",
+    "run_family": "dense_high",
+    "level_scope": "high_school_final"
+  },
+  {
+    "model_id": "dense_EWC_M_42",
+    "paper_label": "dense_EWC_M_42",
+    "seed": 42,
+    "checkpoint_kind": "last",
+    "checkpoint_path": "checkpoints/ewc/dense_EWC_M_42.pt",
+    "evaluation_path": "evaluation/raw_json/dense_EWC_M_42_eval.json",
+    "run_family": "dense_ewc_middle",
+    "level_scope": "middle_school_final"
+  },
+  {
+    "model_id": "dense_EWC_H_42",
+    "paper_label": "dense_EWC_H_42",
+    "seed": 42,
+    "checkpoint_kind": "last",
+    "checkpoint_path": "checkpoints/ewc/dense_EWC_H_42.pt",
+    "evaluation_path": "evaluation/raw_json/dense_EWC_H_42_eval.json",
+    "run_family": "dense_ewc_high",
+    "level_scope": "high_school_final"
+  },
+  {
+    "model_id": "dyn_joint_42",
+    "paper_label": "dyn_joint_42",
+    "seed": 42,
+    "checkpoint_kind": "last",
+    "checkpoint_path": "checkpoints/dynamic/dyn_joint_42.pt",
+    "evaluation_path": "evaluation/raw_json/dyn_joint_42_eval.json",
+    "run_family": "dynamic_joint",
+    "level_scope": "joint_full"
+  },
+  {
+    "model_id": "dense_joint_42",
+    "paper_label": "dense_joint_42",
+    "seed": 42,
+    "checkpoint_kind": "last",
+    "checkpoint_path": "checkpoints/dense/dense_joint_42.pt",
+    "evaluation_path": "evaluation/raw_json/dense_joint_42_eval.json",
+    "run_family": "dense_joint",
+    "level_scope": "joint_full"
+  }
+]

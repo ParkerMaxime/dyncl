@@ -1,0 +1,13 @@
+{
+  "family": "ewc",
+  "paper_labels": ["dense_EWC_M_42", "dense_EWC_H_42"],
+  "evaluation_manifest": "manifests/evaluation/ewc_manifest.json",
+  "primary_checkpoint_dir": "checkpoints/ewc/",
+  "primary_eval_dir": "eval_json/per_run/",
+  "related_docs": [
+    "article/paper.pdf",
+    "docs/hyperparameter_audit.md",
+    "curriculum/splits.md"
+  ],
+  "notes": ["EWC controls are dense sequential runs with dedicated EWC settings."]
+}

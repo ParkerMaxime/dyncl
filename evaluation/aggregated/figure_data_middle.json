@@ -1,0 +1,50 @@
+{
+  "source": "article figures/pareto_college.tex",
+  "x": "active_ffn_synapses",
+  "y": "middle_ar",
+  "points": [
+    {
+      "label": "dynM",
+      "x": 645582,
+      "y": 0.49247619047619046,
+      "yerr": 0.0035,
+      "multi_seed": true
+    },
+    {
+      "label": "denseM_42",
+      "x": 2097152,
+      "y": 0.481,
+      "multi_seed": false
+    },
+    {
+      "label": "dense_EWC_M_42",
+      "x": 2097152,
+      "y": 0.4783,
+      "multi_seed": false
+    },
+    {
+      "label": "sparseM_42",
+      "x": 629144,
+      "y": 0.47985714285714287,
+      "multi_seed": false
+    },
+    {
+      "label": "dyn_joint_42",
+      "x": 639348,
+      "y": 0.48,
+      "multi_seed": false
+    },
+    {
+      "label": "sparse_joint_42",
+      "x": 629144,
+      "y": 0.4848571428571429,
+      "multi_seed": false
+    },
+    {
+      "label": "dense_joint_42",
+      "x": 2097152,
+      "y": 0.4844,
+      "multi_seed": false
+    }
+  ]
+}

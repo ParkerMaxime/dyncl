@@ -1,0 +1,13 @@
+{
+  "family": "dynP",
+  "paper_labels": ["dynP_42", "dynP_43", "dynP_44"],
+  "evaluation_manifest": "manifests/evaluation/dynP_manifest.json",
+  "primary_checkpoint_dir": "checkpoints/dynamic/",
+  "primary_eval_dir": "eval_json/per_run/",
+  "related_docs": [
+    "article/paper.pdf",
+    "docs/hyperparameter_audit.md",
+    "curriculum/splits.md"
+  ],
+  "notes": ["Primary dynamic sparse baseline used for the paper multiseed dynP result."]
+}

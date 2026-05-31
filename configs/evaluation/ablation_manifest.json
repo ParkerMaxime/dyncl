@@ -1,0 +1,11 @@
+[
+  {
+    "model_id": "dynP_noprune_42",
+    "seed": 42,
+    "checkpoint_kind": "last",
+    "checkpoint_path": "checkpoints/ablations/dynP_noprune_42.pt",
+    "evaluation_path": "eval_json/per_run/dynP_noprune_42_eval.json",
+    "run_family": "dynamic_primary_no_prune",
+    "level_scope": "primary_ablation"
+  }
+]

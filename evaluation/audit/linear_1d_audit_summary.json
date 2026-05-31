@@ -1,0 +1,127 @@
+{
+  "analysis_id": "linear_1d_rollout_audit",
+  "module": "algebra__linear_1d",
+  "sample_count_shared": 100,
+  "canonical_source_model": "dynH_42",
+  "models": {
+    "dynH_42": {
+      "n_samples": 100,
+      "ar_answer_em": 0.04,
+      "tf_answer_em": 1.0,
+      "tf_concept_step_micro": 0.9975,
+      "mean_first_error_position": 3.93,
+      "median_first_error_position": 2.0,
+      "format_error_rate": 0.0,
+      "number_copy_accuracy": 0.5866666666666667,
+      "operand_preservation_accuracy": 0.59,
+      "conceptual_skeleton_correct": 1.0,
+      "numeric_propagation_error_rate": 0.96,
+      "median_digit_edit_distance": 2.0,
+      "label_histogram_suggested": {
+        "format": 0,
+        "early_copy": 4,
+        "late_numeric": 96,
+        "conceptual": 0,
+        "other": 0
+      }
+    },
+    "dynH_43": {
+      "n_samples": 100,
+      "ar_answer_em": 0.26,
+      "tf_answer_em": 1.0,
+      "tf_concept_step_micro": 0.995,
+      "mean_first_error_position": 4.866666666666666,
+      "median_first_error_position": 2.0,
+      "format_error_rate": 0.0,
+      "number_copy_accuracy": 0.6766666666666666,
+      "operand_preservation_accuracy": 0.6799999999999999,
+      "conceptual_skeleton_correct": 1.0,
+      "numeric_propagation_error_rate": 0.74,
+      "median_digit_edit_distance": 1.0,
+      "label_histogram_suggested": {
+        "format": 0,
+        "early_copy": 16,
+        "late_numeric": 74,
+        "conceptual": 0,
+        "other": 10
+      }
+    },
+    "dynH_44": {
+      "n_samples": 100,
+      "ar_answer_em": 0.05,
+      "tf_answer_em": 1.0,
+      "tf_concept_step_micro": 0.9975,
+      "mean_first_error_position": 3.88,
+      "median_first_error_position": 2.0,
+      "format_error_rate": 0.0,
+      "number_copy_accuracy": 0.5866666666666667,
+      "operand_preservation_accuracy": 0.5866666666666667,
+      "conceptual_skeleton_correct": 1.0,
+      "numeric_propagation_error_rate": 0.95,
+      "median_digit_edit_distance": 1.5,
+      "label_histogram_suggested": {
+        "format": 0,
+        "early_copy": 5,
+        "late_numeric": 95,
+        "conceptual": 0,
+        "other": 0
+      }
+    },
+    "denseH_42": {
+      "n_samples": 100,
+      "ar_answer_em": 0.34,
+      "tf_answer_em": 1.0,
+      "tf_concept_step_micro": 0.9975,
+      "mean_first_error_position": 6.142857142857143,
+      "median_first_error_position": 5.0,
+      "format_error_rate": 0.0,
+      "number_copy_accuracy": 0.75,
+      "operand_preservation_accuracy": 0.7533333333333333,
+      "conceptual_skeleton_correct": 1.0,
+      "numeric_propagation_error_rate": 0.66,
+      "median_digit_edit_distance": 1.0,
+      "label_histogram_suggested": {
+        "format": 0,
+        "early_copy": 11,
+        "late_numeric": 66,
+        "conceptual": 0,
+        "other": 23
+      }
+    },
+    "dyn_joint_42": {
+      "n_samples": 100,
+      "ar_answer_em": 0.17,
+      "tf_answer_em": 1.0,
+      "tf_concept_step_micro": 0.995,
+      "mean_first_error_position": 3.967391304347826,
+      "median_first_error_position": 2.0,
+      "format_error_rate": 0.0,
+      "number_copy_accuracy": 0.65,
+      "operand_preservation_accuracy": 0.65,
+      "conceptual_skeleton_correct": 1.0,
+      "numeric_propagation_error_rate": 0.83,
+      "median_digit_edit_distance": 1.0,
+      "label_histogram_suggested": {
+        "format": 0,
+        "early_copy": 9,
+        "late_numeric": 83,
+        "conceptual": 0,
+        "other": 8
+      }
+    }
+  },
+  "notes": {
+    "first_error_position_unit": "character_index_on_decoded_char_tokens",
+    "number_copy_accuracy": "multiset recall of numeric literals from question into AR scratchpad",
+    "operand_preservation_accuracy": "set recall of numeric literals from question into AR scratchpad",
+    "conceptual_skeleton_correct": "concept_step_exact on parsed scratchpad skeleton",
+    "numeric_propagation_error_rate": "conceptually exact skeleton but wrong final extracted answer",
+    "annotation_labels": [
+      "format",
+      "early_copy",
+      "late_numeric",
+      "conceptual",
+      "other"
+    ]
+  }
+}

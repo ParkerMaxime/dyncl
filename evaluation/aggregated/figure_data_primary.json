@@ -1,0 +1,50 @@
+{
+  "source": "article figures/pareto_primary.tex",
+  "x": "active_ffn_synapses",
+  "y": "primary_ar",
+  "points": [
+    {
+      "label": "dynP",
+      "x": 638087,
+      "y": 0.7945,
+      "yerr": 0.0028,
+      "multi_seed": true
+    },
+    {
+      "label": "dynP_noprune_42",
+      "x": 654896,
+      "y": 0.8045,
+      "multi_seed": false
+    },
+    {
+      "label": "denseP_42",
+      "x": 2097152,
+      "y": 0.7685,
+      "multi_seed": false
+    },
+    {
+      "label": "sparseP_42",
+      "x": 629144,
+      "y": 0.8095,
+      "multi_seed": false
+    },
+    {
+      "label": "dyn_joint_42",
+      "x": 639348,
+      "y": 0.7113,
+      "multi_seed": false
+    },
+    {
+      "label": "sparse_joint_42",
+      "x": 629144,
+      "y": 0.7375,
+      "multi_seed": false
+    },
+    {
+      "label": "dense_joint_42",
+      "x": 2097152,
+      "y": 0.6633,
+      "multi_seed": false
+    }
+  ]
+}

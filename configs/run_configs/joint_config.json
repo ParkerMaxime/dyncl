@@ -1,0 +1,17 @@
+{
+  "family": "joint",
+  "paper_labels": ["dyn_joint_42", "dense_joint_42", "sparse_joint_42"],
+  "evaluation_manifest": "manifests/evaluation/joint_manifest.json",
+  "primary_checkpoint_dirs": [
+    "checkpoints/dynamic/",
+    "checkpoints/dense/",
+    "checkpoints/static_sparse/"
+  ],
+  "primary_eval_dir": "eval_json/per_run/",
+  "related_docs": [
+    "article/paper.pdf",
+    "docs/hyperparameter_audit.md",
+    "curriculum/splits.md"
+  ],
+  "notes": ["Joint controls span dynamic, dense, and static sparse substrates."]
+}

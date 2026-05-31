@@ -1,0 +1,13 @@
+{
+  "family": "ablation",
+  "paper_labels": ["dynP_noprune_42"],
+  "evaluation_manifest": "manifests/evaluation/ablation_manifest.json",
+  "primary_checkpoint_dir": "checkpoints/ablations/",
+  "primary_eval_dir": "eval_json/per_run/",
+  "related_docs": [
+    "article/paper.pdf",
+    "docs/hyperparameter_audit.md",
+    "curriculum/splits.md"
+  ],
+  "notes": ["Primary no-prune ablation used in the paper."]
+}

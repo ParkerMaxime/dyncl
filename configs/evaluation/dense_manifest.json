@@ -1,0 +1,29 @@
+[
+  {
+    "model_id": "denseP_42",
+    "seed": 42,
+    "checkpoint_kind": "best",
+    "checkpoint_path": "checkpoints/dense/denseP_42.pt",
+    "evaluation_path": "eval_json/per_run/denseP_42_eval.json",
+    "run_family": "dense_primary",
+    "level_scope": "primary_final"
+  },
+  {
+    "model_id": "denseM_42",
+    "seed": 42,
+    "checkpoint_kind": "last",
+    "checkpoint_path": "checkpoints/dense/denseM_42.pt",
+    "evaluation_path": "eval_json/per_run/denseM_42_eval.json",
+    "run_family": "dense_middle",
+    "level_scope": "middle_school_final"
+  },
+  {
+    "model_id": "denseH_42",
+    "seed": 42,
+    "checkpoint_kind": "last",
+    "checkpoint_path": "checkpoints/dense/denseH_42.pt",
+    "evaluation_path": "eval_json/per_run/denseH_42_eval.json",
+    "run_family": "dense_high",
+    "level_scope": "high_school_final"
+  }
+]

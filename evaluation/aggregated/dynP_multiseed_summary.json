@@ -1,0 +1,18 @@
+{
+  "label": "dynP",
+  "metric": "primary_ar",
+  "seeds": [42, 43, 44],
+  "per_seed": {
+    "42": 0.7925,
+    "43": 0.7985,
+    "44": 0.7925
+  },
+  "mean": 0.7945,
+  "std": 0.0028,
+  "active_ffn_synapses_per_seed": {
+    "42": 639611,
+    "43": 638727,
+    "44": 635923
+  },
+  "active_ffn_synapses_mean": 638087
+}

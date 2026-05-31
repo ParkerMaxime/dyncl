@@ -1,0 +1,29 @@
+[
+  {
+    "model_id": "dynH_42",
+    "seed": 42,
+    "checkpoint_kind": "last",
+    "checkpoint_path": "checkpoints/dynamic/dynH_seed42.pt",
+    "evaluation_path": "eval_json/per_run/dynH_seed42_eval.json",
+    "run_family": "dynamic_high",
+    "level_scope": "high_school_final"
+  },
+  {
+    "model_id": "dynH_43",
+    "seed": 43,
+    "checkpoint_kind": "last",
+    "checkpoint_path": "checkpoints/dynamic/dynH_seed43.pt",
+    "evaluation_path": "eval_json/per_run/dynH_seed43_eval.json",
+    "run_family": "dynamic_high",
+    "level_scope": "high_school_final"
+  },
+  {
+    "model_id": "dynH_44",
+    "seed": 44,
+    "checkpoint_kind": "best",
+    "checkpoint_path": "checkpoints/dynamic/dynH_seed44.pt",
+    "evaluation_path": "eval_json/per_run/dynH_seed44_eval.json",
+    "run_family": "dynamic_high",
+    "level_scope": "high_school_final"
+  }
+]

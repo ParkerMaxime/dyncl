@@ -1,0 +1,136 @@
+{
+  "source": "article figures/cl_trajectory.tex",
+  "x": "level",
+  "y": "ar",
+  "series": [
+    {
+      "label": "dynH",
+      "multi_seed": true,
+      "points": [
+        {
+          "level": "Primary",
+          "y": 0.7407,
+          "yerr": 0.004
+        },
+        {
+          "level": "Middle-school",
+          "y": 0.4893,
+          "yerr": 0.004
+        },
+        {
+          "level": "High-school",
+          "y": 0.167,
+          "yerr": 0.026
+        }
+      ]
+    },
+    {
+      "label": "denseH_42",
+      "multi_seed": false,
+      "points": [
+        {
+          "level": "Primary",
+          "y": 0.724
+        },
+        {
+          "level": "Middle-school",
+          "y": 0.4901
+        },
+        {
+          "level": "High-school",
+          "y": 0.2517
+        }
+      ]
+    },
+    {
+      "label": "dense_EWC_H_42",
+      "multi_seed": false,
+      "points": [
+        {
+          "level": "Primary",
+          "y": 0.704
+        },
+        {
+          "level": "Middle-school",
+          "y": 0.4823
+        },
+        {
+          "level": "High-school",
+          "y": 0.2507
+        }
+      ]
+    },
+    {
+      "label": "sparseH_42",
+      "multi_seed": false,
+      "points": [
+        {
+          "level": "Primary",
+          "y": 0.6205
+        },
+        {
+          "level": "Middle-school",
+          "y": 0.4547
+        },
+        {
+          "level": "High-school",
+          "y": 0.249
+        }
+      ]
+    },
+    {
+      "label": "dyn_joint_42",
+      "multi_seed": false,
+      "points": [
+        {
+          "level": "Primary",
+          "y": 0.7113
+        },
+        {
+          "level": "Middle-school",
+          "y": 0.48
+        },
+        {
+          "level": "High-school",
+          "y": 0.2065
+        }
+      ]
+    },
+    {
+      "label": "sparse_joint_42",
+      "multi_seed": false,
+      "points": [
+        {
+          "level": "Primary",
+          "y": 0.7375
+        },
+        {
+          "level": "Middle-school",
+          "y": 0.4849
+        },
+        {
+          "level": "High-school",
+          "y": 0.2355
+        }
+      ]
+    },
+    {
+      "label": "dense_joint_42",
+      "multi_seed": false,
+      "points": [
+        {
+          "level": "Primary",
+          "y": 0.6633
+        },
+        {
+          "level": "Middle-school",
+          "y": 0.4844
+        },
+        {
+          "level": "High-school",
+          "y": 0.242
+        }
+      ]
+    }
+  ]
+}

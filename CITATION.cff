@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the paper and the archival repository snapshot."
+title: "DynCL: Bio-Inspired Structural Plasticity as a Continual Learning Substrate for Curriculum Transformers"
+authors:
+  - family-names: "Parker"
+    given-names: "Maxime"
+    affiliation: "Universite de Toulouse"
+    email: "maxime.parker@utoulouse.fr"
+license: "MIT"
+date-released: 2026-05-31
+preferred-citation:
+  type: article
+  title: "Bio-Inspired Structural Plasticity as a Continual Learning Substrate for Curriculum Transformers"
+  authors:
+    - family-names: "Parker"
+      given-names: "Maxime"
+      affiliation: "Universite de Toulouse"
+      email: "maxime.parker@utoulouse.fr"
+  year: 2026

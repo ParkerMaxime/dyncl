@@ -1,0 +1,6 @@
+figures/generated/
+tables/generated/
+evaluation/recomputed/
+__pycache__/
+*.pyc
+.DS_Store
