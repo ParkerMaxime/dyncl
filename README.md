@@ -103,7 +103,7 @@ Checkpoint handling is documented in:
 
 Archived paper checkpoints:
 
-- [Zenodo DOI 10.5281/zenodo.20479133](https://doi.org/10.5281/zenodo.20479133)
+- [Zenodo DOI 10.5281/zenodo.20511782](https://doi.org/10.5281/zenodo.20511782)
 
 ## Provenance and release notes
 

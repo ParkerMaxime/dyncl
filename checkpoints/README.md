@@ -9,7 +9,7 @@ artifact deposit under:
 
 For publication, the paper checkpoints are archived on Zenodo:
 
-- DOI: [10.5281/zenodo.20479133](https://doi.org/10.5281/zenodo.20479133)
+- DOI: [10.5281/zenodo.20511782](https://doi.org/10.5281/zenodo.20511782)
 
 This repository therefore stays focused on code, configs, figures, tables, and
 JSON evaluation artifacts, while the heavyweight checkpoints are distributed
