@@ -7,19 +7,17 @@ artifact deposit under:
 
 - `../docs/analyse_papier/article/depot/checkpoints/`
 
-For publication, the intended pattern is:
+For publication, the paper checkpoints are archived on Zenodo:
 
-1. keep this repository focused on code, configs, figures, tables, and JSON evaluation artifacts;
-2. host heavy checkpoints separately on a release-oriented artifact backend such as Zenodo or Hugging Face Hub;
-3. document those permanent URLs here before public release.
+- DOI: [10.5281/zenodo.20479133](https://doi.org/10.5281/zenodo.20479133)
+
+This repository therefore stays focused on code, configs, figures, tables, and
+JSON evaluation artifacts, while the heavyweight checkpoints are distributed
+through the archival artifact release.
 
 The paper figures and tables in this repository do not require the checkpoints to be present locally.
 
-If you want to rerun the released `E64` evaluation code, either:
-
-1. place checkpoints under this directory with the manifest-compatible layout, for example:
-   - `checkpoints/dynamic/dynH_seed42.pt`
-   - `checkpoints/dense/denseH_42.pt`
-   - `checkpoints/ewc/dense_EWC_H_42.pt`
-2. or keep them elsewhere and pass `--checkpoint-root /path/to/checkpoints` to:
-   - `scripts/recompute_eval.py`
+The archive is intended as the heavyweight checkpoint companion to the public
+GitHub repository. The GitHub repository itself focuses on released evaluation
+artifacts, paper-facing aggregates, figure/table regeneration, and supporting
+documentation.

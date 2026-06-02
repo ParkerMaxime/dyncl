@@ -8,7 +8,6 @@ It contains:
 - raw per-run evaluation JSON files;
 - paper-facing aggregate JSON files;
 - the `linear_1d` rollout audit artifacts;
-- a bounded checkpoint reevaluation workspace for `E64`;
 - curriculum and tokenization documentation;
 - lightweight scripts to regenerate the released figures and summary tables without retraining.
 
@@ -42,8 +41,6 @@ rebuild the reported paper figures and tables.
   - tokenization notes and exact helper code copied for the release
 - [`docs/`](docs/)
   - provenance, reproducibility checklist, and release notes
-- [`recompute_workspace/`](recompute_workspace/)
-  - vendored evaluation-only subset used by the public reevaluation wrappers
 
 ## Quick reproduction
 
@@ -60,36 +57,6 @@ Outputs:
 
 - tables: `tables/generated/`
 - figures: `figures/generated/`
-
-## Checkpoint reevaluation
-
-This release also includes the cleaned evaluation path used to recompute
-checkpoint metrics without retraining.
-
-Supported public entry points:
-
-```bash
-cd dyncl
-mamba run -n dyncl python scripts/recompute_eval.py --prepare-only
-```
-
-If checkpoints are stored outside `dyncl/checkpoints/`, pass an explicit root:
-
-```bash
-mamba run -n dyncl python scripts/recompute_eval.py \
-  --checkpoint-root /path/to/checkpoints
-```
-
-Supported reevaluation scope in this release:
-
-- dynamic primary / middle / high
-- dynamic primary no-prune ablation
-- dense primary / middle / high
-- dense EWC middle / high
-- dynamic joint
-- dense joint
-
-Static sparse reevaluation is not wired into this bounded release workspace.
 
 ## What the scripts regenerate
 
@@ -133,6 +100,10 @@ The DeepMind Mathematics dataset is not redistributed here. See:
 Checkpoint handling is documented in:
 
 - [`checkpoints/README.md`](checkpoints/README.md)
+
+Archived paper checkpoints:
+
+- [Zenodo DOI 10.5281/zenodo.20479133](https://doi.org/10.5281/zenodo.20479133)
 
 ## Provenance and release notes
 

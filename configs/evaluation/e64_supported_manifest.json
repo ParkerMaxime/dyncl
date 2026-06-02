@@ -168,5 +168,45 @@
     "evaluation_path": "evaluation/raw_json/dense_joint_42_eval.json",
     "run_family": "dense_joint",
     "level_scope": "joint_full"
+  },
+  {
+    "model_id": "sparseP_42",
+    "paper_label": "sparseP_42",
+    "seed": 42,
+    "checkpoint_kind": "best",
+    "checkpoint_path": "checkpoints/static_sparse/sparseP_42.pt",
+    "evaluation_path": "evaluation/raw_json/sparseP_42_eval.json",
+    "run_family": "static_sparse_primary",
+    "level_scope": "primary_final"
+  },
+  {
+    "model_id": "sparseM_42",
+    "paper_label": "sparseM_42",
+    "seed": 42,
+    "checkpoint_kind": "best",
+    "checkpoint_path": "checkpoints/static_sparse/sparseM_42.pt",
+    "evaluation_path": "evaluation/raw_json/sparseM_42_eval.json",
+    "run_family": "static_sparse_middle",
+    "level_scope": "middle_school_final"
+  },
+  {
+    "model_id": "sparseH_42",
+    "paper_label": "sparseH_42",
+    "seed": 42,
+    "checkpoint_kind": "best",
+    "checkpoint_path": "checkpoints/static_sparse/sparseH_42.pt",
+    "evaluation_path": "evaluation/raw_json/sparseH_42_eval.json",
+    "run_family": "static_sparse_high",
+    "level_scope": "high_school_final"
+  },
+  {
+    "model_id": "sparse_joint_42",
+    "paper_label": "sparse_joint_42",
+    "seed": 42,
+    "checkpoint_kind": "best",
+    "checkpoint_path": "checkpoints/static_sparse/sparse_joint_42.pt",
+    "evaluation_path": "evaluation/raw_json/sparse_joint_42_eval.json",
+    "run_family": "static_sparse_joint",
+    "level_scope": "joint_full"
   }
 ]
